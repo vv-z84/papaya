@@ -9,7 +9,6 @@
     "generate": "node ./dist/index.js generate -s ./resume.md -o ./output/resume.pdf"
   },
   "files": ["dist/*"],
-  "bin": "dist/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
