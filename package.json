@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel --env-name production ./src -d ./dist --delete-dir-on-start",
-    "generate": "node ./dist/index.js generate -s ./input.md -o ./output/resume.pdf"
+    "generate": "node ./dist/cli.js generate -s ./input.md -o ./output/resume.pdf"
   },
   "bin": {
     "papaya": "./dist/cli.js"
